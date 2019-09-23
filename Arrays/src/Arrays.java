@@ -1,15 +1,16 @@
 import java.util.Scanner;
 
-public class Practice {
+public class Arrays {
 
 	public static void main(String[] args) {
-		
 		Scanner keyboardInput = new Scanner(System.in);
-		
-		System.out.print("How many names will be entered? ");
+		System.out.print("How many names are you storing? ");
 		int number = keyboardInput.nextInt();
-		System.out.print(number);
 		
-		String [] names = new String[number];	
+		String [] friends = new String[number];
+		
+		System.out.
+
 	}
+
 }
