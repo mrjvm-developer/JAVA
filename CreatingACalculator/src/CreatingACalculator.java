@@ -15,5 +15,4 @@ public class CreatingACalculator {
 		
 		System.out.println("The sum of number1 and number2 is: " + sum);
 	}
-
 }
