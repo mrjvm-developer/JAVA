@@ -2,20 +2,18 @@
 public class Practice1 {
 
 	public static void main(String[] args) {
-		int number = 4;
-		System.out.println(cube(number));
+		System.out.println(cube(3));
 		
-		String name = "Jeremy";
-		System.out.println(cube1(4));
+		int total1 = cube(3);
+		System.out.println(total1);
 
 	}
 	
 	public static int cube(int number) {
-		return number * number * number;
+		int total = number * number * number;
+		return total;
 	}
 	
-	public static String cube1(int number) {
-		return "Hello Jeremy!";
-	}
+
 
 }
