@@ -10,6 +10,7 @@ public class Practice {
 		int number = keyboardInput.nextInt();
 		System.out.print(number);
 		
-		String [] names = new String[number];	
+		String [] names = new String[number];
+		System.out.print(names);
 	}
 }
