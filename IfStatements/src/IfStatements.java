@@ -2,8 +2,8 @@ public class IfStatements {
 
 	public static void main(String[] args) {
 		
-		boolean isMale = false;
-		boolean isTall = false;
+		boolean isMale = true;
+		boolean isTall = true;
 		
 		if(isMale && isTall) {
 			System.out.println("You are a tall male");
